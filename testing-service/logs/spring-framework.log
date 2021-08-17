@@ -1041,3 +1041,270 @@
 2021-08-09T18:34:33.105+0530 DEBUG HTTP DELETE http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004
 2021-08-09T18:34:33.105+0530 DEBUG Accept=[application/json, application/*+json]
 2021-08-09T18:34:33.110+0530 DEBUG Response 200 OK
+2021-08-17T07:56:09.300+0530 DEBUG HTTP GET http://localhost:5009/TESTING-SERVICE/default
+2021-08-17T07:56:09.362+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:56:10.387+0530 DEBUG Response 200 OK
+2021-08-17T07:56:10.388+0530 DEBUG Reading to [org.springframework.cloud.config.environment.Environment]
+2021-08-17T07:56:14.281+0530 DEBUG ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-17T07:56:14.354+0530 DEBUG 4 mappings in 'requestMappingHandlerMapping'
+2021-08-17T07:56:14.386+0530 DEBUG Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-17T07:56:14.393+0530 DEBUG ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-17T07:56:15.234+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/
+2021-08-17T07:56:15.266+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:56:15.307+0530 DEBUG Response 200 OK
+2021-08-17T07:56:15.308+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T07:56:15.370+0530 DEBUG HTTP POST http://localhost:5007/eureka/apps/TESTING-SERVICE
+2021-08-17T07:56:15.373+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:56:15.387+0530 DEBUG Writing [InstanceInfo [instanceId = DESKTOP-EQ8CCC7:TESTING-SERVICE:5004, appName = TESTING-SERVICE, hostName = localhost, status = UP, ipAddr = 192.168.43.106, port = 5004, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@78f54306] as "application/json"
+2021-08-17T07:56:15.414+0530 DEBUG Response 204 NO_CONTENT
+2021-08-17T07:56:45.354+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T07:56:45.355+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T07:56:45.355+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:56:45.396+0530 DEBUG Response 200 OK
+2021-08-17T07:56:45.397+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T07:56:45.456+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:56:45.478+0530 DEBUG Response 200 OK
+2021-08-17T07:57:15.422+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T07:57:15.423+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:57:15.427+0530 DEBUG Response 200 OK
+2021-08-17T07:57:15.427+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T07:57:15.500+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T07:57:15.501+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:57:15.505+0530 DEBUG Response 200 OK
+2021-08-17T07:57:45.432+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T07:57:45.433+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:57:45.438+0530 DEBUG Response 200 OK
+2021-08-17T07:57:45.438+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T07:57:45.511+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T07:57:45.512+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:57:45.516+0530 DEBUG Response 200 OK
+2021-08-17T07:58:15.456+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T07:58:15.457+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:58:15.462+0530 DEBUG Response 200 OK
+2021-08-17T07:58:15.463+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T07:58:15.517+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T07:58:15.518+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:58:15.521+0530 DEBUG Response 200 OK
+2021-08-17T07:58:45.466+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T07:58:45.467+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:58:45.470+0530 DEBUG Response 200 OK
+2021-08-17T07:58:45.470+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T07:58:45.528+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T07:58:45.529+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:58:45.533+0530 DEBUG Response 200 OK
+2021-08-17T07:59:15.477+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T07:59:15.478+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:59:15.481+0530 DEBUG Response 200 OK
+2021-08-17T07:59:15.483+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T07:59:15.539+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T07:59:15.540+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:59:15.543+0530 DEBUG Response 200 OK
+2021-08-17T07:59:45.491+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T07:59:45.491+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:59:45.496+0530 DEBUG Response 200 OK
+2021-08-17T07:59:45.496+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T07:59:45.552+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T07:59:45.553+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T07:59:45.556+0530 DEBUG Response 200 OK
+2021-08-17T08:00:15.502+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:00:15.503+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:00:15.506+0530 DEBUG Response 200 OK
+2021-08-17T08:00:15.506+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:00:15.565+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:00:15.566+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:00:15.571+0530 DEBUG Response 200 OK
+2021-08-17T08:00:45.522+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:00:45.523+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:00:45.526+0530 DEBUG Response 200 OK
+2021-08-17T08:00:45.526+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:00:45.584+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:00:45.585+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:00:45.589+0530 DEBUG Response 200 OK
+2021-08-17T08:01:15.531+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:01:15.532+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:01:15.534+0530 DEBUG Response 200 OK
+2021-08-17T08:01:15.535+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:01:15.594+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:01:15.595+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:01:15.599+0530 DEBUG Response 200 OK
+2021-08-17T08:01:45.545+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:01:45.545+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:01:45.550+0530 DEBUG Response 200 OK
+2021-08-17T08:01:45.551+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:01:45.607+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:01:45.607+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:01:45.610+0530 DEBUG Response 200 OK
+2021-08-17T08:02:15.567+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:02:15.568+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:02:15.572+0530 DEBUG Response 200 OK
+2021-08-17T08:02:15.573+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:02:15.615+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:02:15.615+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:02:15.620+0530 DEBUG Response 200 OK
+2021-08-17T08:02:45.580+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:02:45.581+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:02:45.584+0530 DEBUG Response 200 OK
+2021-08-17T08:02:45.584+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:02:45.627+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:02:45.628+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:02:45.632+0530 DEBUG Response 200 OK
+2021-08-17T08:03:49.792+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:03:49.792+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:03:49.793+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:03:49.793+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:03:49.798+0530 DEBUG Response 200 OK
+2021-08-17T08:03:49.808+0530 DEBUG Response 200 OK
+2021-08-17T08:03:49.809+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:04:20.794+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:04:20.794+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:04:20.794+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:04:20.794+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:04:20.798+0530 DEBUG Response 200 OK
+2021-08-17T08:04:20.798+0530 DEBUG Response 200 OK
+2021-08-17T08:04:20.799+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:04:50.810+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:04:50.810+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:04:50.811+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:04:50.811+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:04:50.815+0530 DEBUG Response 200 OK
+2021-08-17T08:04:50.815+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:04:50.815+0530 DEBUG Response 200 OK
+2021-08-17T08:05:21.815+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:05:21.815+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:05:21.816+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:05:21.816+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:05:21.821+0530 DEBUG Response 200 OK
+2021-08-17T08:05:21.821+0530 DEBUG Response 200 OK
+2021-08-17T08:05:21.821+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:05:51.824+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:05:51.824+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:05:51.825+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:05:51.825+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:05:51.827+0530 DEBUG Response 200 OK
+2021-08-17T08:05:51.827+0530 DEBUG Response 200 OK
+2021-08-17T08:05:51.827+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T08:06:21.840+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T08:06:21.840+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T08:06:21.840+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:06:21.840+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T08:06:21.842+0530 DEBUG Response 200 OK
+2021-08-17T08:06:21.842+0530 DEBUG Response 200 OK
+2021-08-17T08:06:21.843+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:03:38.390+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:03:38.390+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:03:38.409+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:03:38.416+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:03:38.420+0530 DEBUG Response 200 OK
+2021-08-17T10:03:38.420+0530 DEBUG Response 200 OK
+2021-08-17T10:03:38.420+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:04:08.422+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:04:08.422+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:04:08.426+0530 DEBUG Response 200 OK
+2021-08-17T10:04:08.426+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:04:08.427+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:04:08.430+0530 DEBUG Response 200 OK
+2021-08-17T10:04:08.431+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:04:38.433+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:04:38.433+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:04:38.434+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:04:38.435+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:04:38.436+0530 DEBUG Response 200 OK
+2021-08-17T10:04:38.436+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:04:38.438+0530 DEBUG Response 200 OK
+2021-08-17T10:05:08.451+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:05:08.451+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:05:08.451+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:05:08.451+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:05:08.455+0530 DEBUG Response 200 OK
+2021-08-17T10:05:08.455+0530 DEBUG Response 200 OK
+2021-08-17T10:05:08.455+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:05:38.462+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:05:38.462+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:05:38.462+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:05:38.463+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:05:38.465+0530 DEBUG Response 200 OK
+2021-08-17T10:05:38.465+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:05:38.465+0530 DEBUG Response 200 OK
+2021-08-17T10:06:08.467+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:06:08.467+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:06:08.468+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:06:08.468+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:06:08.470+0530 DEBUG Response 200 OK
+2021-08-17T10:06:08.470+0530 DEBUG Response 200 OK
+2021-08-17T10:06:08.470+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:06:38.479+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:06:38.479+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:06:38.480+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:06:38.480+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:06:38.482+0530 DEBUG Response 200 OK
+2021-08-17T10:06:38.483+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:06:38.484+0530 DEBUG Response 200 OK
+2021-08-17T10:07:08.489+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:07:08.489+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:07:08.489+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:07:08.489+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:07:08.492+0530 DEBUG Response 200 OK
+2021-08-17T10:07:08.492+0530 DEBUG Response 200 OK
+2021-08-17T10:07:08.492+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:07:38.499+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:07:38.499+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:07:38.500+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:07:38.500+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:07:38.503+0530 DEBUG Response 200 OK
+2021-08-17T10:07:38.503+0530 DEBUG Response 200 OK
+2021-08-17T10:07:38.503+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:08:08.505+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:08:08.505+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:08:08.506+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:08:08.506+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:08:08.508+0530 DEBUG Response 200 OK
+2021-08-17T10:08:08.508+0530 DEBUG Response 200 OK
+2021-08-17T10:08:08.509+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:08:38.521+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:08:38.522+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:08:38.522+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:08:38.522+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:08:38.525+0530 DEBUG Response 200 OK
+2021-08-17T10:08:38.525+0530 DEBUG Response 200 OK
+2021-08-17T10:08:38.526+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:09:08.530+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:09:08.530+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:09:08.530+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:09:08.530+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:09:08.532+0530 DEBUG Response 200 OK
+2021-08-17T10:09:08.532+0530 DEBUG Response 200 OK
+2021-08-17T10:09:08.533+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:09:38.539+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:09:38.539+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:09:38.540+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:09:38.540+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:09:38.543+0530 DEBUG Response 200 OK
+2021-08-17T10:09:38.543+0530 DEBUG Response 200 OK
+2021-08-17T10:09:38.544+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:10:08.556+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:10:08.556+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:10:08.557+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:10:08.557+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:10:08.559+0530 DEBUG Response 200 OK
+2021-08-17T10:10:08.559+0530 DEBUG Response 200 OK
+2021-08-17T10:10:08.560+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:10:38.567+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:10:38.567+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:10:38.567+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:10:38.567+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:10:38.570+0530 DEBUG Response 200 OK
+2021-08-17T10:10:38.570+0530 DEBUG Response 200 OK
+2021-08-17T10:10:38.570+0530 DEBUG Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-08-17T10:11:08.583+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:11:08.583+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:11:08.584+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:11:08.584+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:11:12.780+0530 DEBUG HTTP PUT http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004?status=UP&lastDirtyTimestamp=1629167175360
+2021-08-17T10:11:12.780+0530 DEBUG HTTP GET http://localhost:5007/eureka/apps/delta
+2021-08-17T10:11:12.792+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:11:12.796+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:11:25.961+0530 DEBUG HTTP POST http://localhost:5007/eureka/apps/TESTING-SERVICE
+2021-08-17T10:11:25.961+0530 DEBUG Accept=[application/json, application/*+json]
+2021-08-17T10:11:25.967+0530 DEBUG Writing [InstanceInfo [instanceId = DESKTOP-EQ8CCC7:TESTING-SERVICE:5004, appName = TESTING-SERVICE, hostName = localhost, status = DOWN, ipAddr = 192.168.43.106, port = 5004, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@78f54306] as "application/json"
+2021-08-17T10:11:29.322+0530 DEBUG HTTP DELETE http://localhost:5007/eureka/apps/TESTING-SERVICE/DESKTOP-EQ8CCC7:TESTING-SERVICE:5004
+2021-08-17T10:11:29.322+0530 DEBUG Accept=[application/json, application/*+json]

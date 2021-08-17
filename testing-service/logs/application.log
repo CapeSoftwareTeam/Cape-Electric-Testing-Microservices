@@ -10,3 +10,5 @@
 2021-08-09T18:30:17.992+0530 DEBUG Running with Spring Boot v2.5.3, Spring v5.3.9
 2021-08-09T18:30:17.992+0530 INFO No active profile set, falling back to default profiles: default
 2021-08-09T18:30:19.395+0530 INFO Started TestingServiceApplication in 1.502 seconds (JVM running for 6625.656)
+2021-08-17T07:56:10.412+0530 INFO No active profile set, falling back to default profiles: default
+2021-08-17T07:56:15.481+0530 INFO Started TestingServiceApplication in 7.296 seconds (JVM running for 8.499)
